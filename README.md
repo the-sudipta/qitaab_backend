@@ -1,4 +1,4 @@
-# Qitaab Backend — Library Management API (Spring Boot)
+# Qitaab Backend — Book selling API (Spring Boot)
 
 **Status:** In progress • Java 17 • Spring Boot • JPA/Hibernate • REST • (Oracle PL/SQL planned)
 

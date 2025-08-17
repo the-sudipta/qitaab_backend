@@ -1,0 +1,18 @@
+-- LOAN_PKG (stub)
+CREATE OR REPLACE PACKAGE loan_pkg AS
+  PROCEDURE issue_loan(p_book_id NUMBER, p_member_id NUMBER);
+  PROCEDURE return_book(p_loan_id NUMBER);
+END loan_pkg;
+/
+
+CREATE OR REPLACE PACKAGE BODY loan_pkg AS
+  PROCEDURE issue_loan(p_book_id NUMBER, p_member_id NUMBER) IS
+  BEGIN
+    NULL; -- TODO: insert into LOANS, set due date
+  END;
+  PROCEDURE return_book(p_loan_id NUMBER) IS
+  BEGIN
+    NULL; -- TODO: mark returned, compute fine via FINE_PKG
+  END;
+END loan_pkg;
+/
